@@ -2,11 +2,11 @@
 
 Project: Develop a deep learning model that can classify news articles as real or fake based on textual content.
 
-Tech Stack: 
-          - PyTorch: training a deep learning model (BERT: machine learning framework that helps computers understand the meaning of text)
-          - Hugging Face Transformers: Use BERT for better NLP performance
-          - FastAPI: Serve the model as a REST API.
-          - Docker: Containerize the application for easy deployment
+Tech Stack:
+   - PyTorch: training a deep learning model (BERT: machine learning framework that helps computers understand the meaning of text)
+   - Hugging Face Transformers: Use BERT for better NLP performance
+   - FastAPI: Serve the model as a REST API.
+   - Docker: Containerize the application for easy deployment
 
 Step 1: Data Collection & Preprocessing
   - get fake and true news datasets from https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets?resource=download 
