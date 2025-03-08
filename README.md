@@ -20,3 +20,13 @@ Step 3: Build a REST API (FastAPI)
 
 Step 4: Containerize the App with Docker
   - implement a Docker file to package the app for better deployment.
+
+How to run (bash):
+   - python3 createNewsDataset.py
+   - python3 trainModel.py
+   - docker build -t fake-news-detector .
+   - docker run -p 8000:8000 fake-news-detector
+
+How to test:
+   - curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -d '{"article": "Breaking: This is a fake news article!"}'
+   - expected output: {"prediction": "Fake"} (Json)
