@@ -9,17 +9,17 @@ Tech Stack:
    - Docker: Containerize the application for easy deployment
 
 Step 1: Data Collection & Preprocessing
-  - get fake and true news datasets from https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets?resource=download 
-  - Implement createNewsDataset.py --> add "label" columns to fake and true news datasets. "1" for all fake news, and "0" for all true news. Mix all news into one dataset and shuffle the columns.
+  - Get fake and true news datasets from https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets?resource=download 
+  - Implement createNewsDataset.py --> add "label" columns to fake and true news datasets. "1" for all fake news, and "0" for all true news. Mix all news into one dataset and shuffle the rows.
 
 Step 2: Train a Deep Learning Model
-  - implement trainModel.py --> train the deep learning model, and save it.
+  - Implement trainModel.py --> train the deep learning model, and save it.
 
 Step 3: Build a REST API (FastAPI)
-  - implement fakeNewsDetector.py --> users can use API calls to check if an article is fake or not.
+  - Implement fakeNewsDetector.py --> users can use API calls to check whether an article is fake.
 
 Step 4: Containerize the App with Docker
-  - implement a Docker file to package the app for better deployment.
+  - Implement a Docker file to package the app for better deployment.
 
 How to run (bash):
    - python3 createNewsDataset.py
