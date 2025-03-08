@@ -13,10 +13,10 @@ Step 1: Data Collection & Preprocessing
   - Implement createNewsDataset.py --> add "label" columns to fake and true news datasets. "1" for all fake news, and "0" for all true news. Mix all news into one dataset and shuffle the columns.
 
 Step 2: Train a Deep Learning Model
-  implement trainModel.py --> train the deep learning model, and save it.
+  - implement trainModel.py --> train the deep learning model, and save it.
 
 Step 3: Build a REST API (FastAPI)
-  implement fakeNewsDetector.py --> users can use API calls to check if an article is fake or not.
+  - implement fakeNewsDetector.py --> users can use API calls to check if an article is fake or not.
 
 Step 4: Containerize the App with Docker
-  implement a Docker file to package the app for better deployment.
+  - implement a Docker file to package the app for better deployment.
